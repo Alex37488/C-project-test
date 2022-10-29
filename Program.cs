@@ -10,10 +10,14 @@ namespace C
    // short 33000<
    // float num = 1234.04958f (Дробные)
    // double num2 = 5.324d
+   // string 
+   // Bool - true or false
 
+string word = " Верно?";
 
    number = 600;
-   Console.WriteLine("Переменная: " + number + " Верно?");
+   Console.WriteLine("Переменная: " + number + word  );
+
 
     }
 } 
