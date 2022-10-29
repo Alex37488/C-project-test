@@ -5,7 +5,7 @@ namespace C
 { class Program {
     static void Main() {
       
-   int number;
+ 
    // byte 255<=
    // short 33000<
    // float num = 1234.04958f (Дробные)
@@ -13,10 +13,13 @@ namespace C
    // string 
    // Bool - true or false
 
-string word = " Верно?";
+    int num_1 = 0 , num_2 = 0 ;
 
-   number = 600;
-   Console.WriteLine("Переменная: " + number + word  );
+      num_1 = Convert.ToInt32(Console.ReadLine());
+      num_2 = Convert.ToInt32(Console.ReadLine());
+
+      Console.WriteLine ("First: " + num_1 + ". Second: "+ num_2 );
+
 
 
     }
